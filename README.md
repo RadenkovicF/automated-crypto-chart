@@ -1,7 +1,7 @@
-excel_crypto.py     Skript zum automatischen ausfüllen einer Excel tabelle mit aktuellen Kursen  
-get_id_by_symbol.py kleines Skript zum holen der ID anahnd des Symbols (coinmarketcap)  
-price_alarm.py      kleines Skript für einen hardcoded preisalarm für TIME  
-prowl_push.py       enthält prowl push function, mit der zugehörigen IOS app echtzeit Push Benachrichtigungen geschickt werden können  
+**excel_crypto.py** &emsp;&emsp;&emsp; &emsp;Skript zum automatischen ausfüllen einer Excel tabelle mit aktuellen Kursen  
+**get_id_by_symbol.py** &emsp;&emsp;kleines Skript zum holen der ID anahnd des Symbols (coinmarketcap)  
+**price_alarm.py** &nbsp;&emsp;&emsp;&emsp;&emsp;kleines Skript für einen hardcoded preisalarm für TIME  
+**prowl_push.py** &nbsp;&emsp;&emsp;&emsp;&emsp;enthält prowl push function, mit zugehöriger IOS app echtzeit Push Benachrichtigungen 
   
 Mit raspberry pi und crontab leicht zu automatisieren.   
   
