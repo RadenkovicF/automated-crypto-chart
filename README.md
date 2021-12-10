@@ -8,7 +8,8 @@ Mit raspberry pi und crontab leicht zu automatisieren.   Mit rclone und googledr
     Annahme: excel_crypto.py und die Excel Tabelle wurden ins main verzeichnis kopiert:
 crontab -e am ende des Files eintrag:  
 0 * * * * /usr/bin/python /home/pi/excel_crypto.py  
-2 * * * * cp /home/pi/crypto_geld.xlsx /home/pi/PFADMNTDRIVE/crypto_geld.xlsx    
+2 * * * * cp /home/pi/crypto_geld.xlsx /home/pi/PFADMNTDRIVE/crypto_geld.xlsx  
+*/5 * * * * /usr/bin/python /home/pi/ /home/pi/price_alarm.py    
 
 
 
